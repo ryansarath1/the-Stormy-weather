@@ -7,14 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+    <div id="container"></div>
     <h1>Weather Dashboard</h1>
     <div class="container">
-        <div class="weather-input">
+        <form class="weather-input">
             <h3>Enter a City Name</h3>
             <input class="city-input" type="text" placeholder="e.g., Atlanta, Denver, Seattle, San Francisco, Orland, New York, Chicago, Austin">
             <button class="Search-btn">Search</button>
             <button class="location-btn">Use Current Location</button>
-        </div>
+            <div class="history-section"></div>
+        </form>
         <div class="weather-data">
             <div class="current-weather">
                 <div class="details">
@@ -29,10 +31,10 @@
                 </div>
             </div>
         </div>
-        <div class="days-dorcast">
+        <div class="days-forcast">
             <h2>5-Day Forcast</h2>
             <ul class="weather-cards" >
-                <li class="card">
+                <!-- <li class="card">
                     <h3> (2/4/2023)</h3>
                     <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="weather-icon">
                     <h4>Temperature: 52.74°F</h4>
@@ -66,9 +68,10 @@
                     <h4>Temperature: 61.62°F</h4>
                     <h4>Wind: 8.43 MPH</h4>
                     <h4>Humidity: 27%</h4>
-                </li>
+                </li> -->
             </ul>
         </div>
     </div>
+    <script src="./script.js"></script>
 </body>
 </html>
