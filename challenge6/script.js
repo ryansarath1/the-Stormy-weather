@@ -114,4 +114,3 @@ searchButton.addEventListener("click", function(event){
 });
 
 
-console.log("yo")
